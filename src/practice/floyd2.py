@@ -1,6 +1,4 @@
-from docutils.parsers.rst.directives import format_values
-
-from FloydWarshall import *
+from src.practice.FloydWarshall import *
 
 def shortest_paths(graph):
     v = len(graph.edge)
